@@ -1,0 +1,10 @@
+var a=0;
+var b=1;
+for(let i=1; i<=5;i++)
+{
+c=a+b;
+a=b;
+b=c;
+document.write(c);
+document.write("<br>");	
+}
